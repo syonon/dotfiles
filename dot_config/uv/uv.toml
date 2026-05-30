@@ -1,0 +1,6 @@
+exclude-newer = "3 days"
+
+[[index]]
+name = "flatt"
+url = "https://pypi.flatt.tech/simple/"
+default = true

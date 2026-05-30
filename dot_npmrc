@@ -1,0 +1,4 @@
+registry=https://npm.flatt.tech/
+
+@flatt:registry=https://npm.flatt.tech/
+//npm.flatt.tech/:_authToken=${FLATT_NPM_TOKEN}
