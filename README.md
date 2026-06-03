@@ -34,3 +34,5 @@ chezmoi cd
 ## 参考リンク
 
 - [chezmoi](https://www.chezmoi.io/)
+- [starship](https://starship.rs/ja-JP/)
+- [Nerd Fonts](https://www.nerdfonts.com/)
