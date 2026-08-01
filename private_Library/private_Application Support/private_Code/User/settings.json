@@ -1,0 +1,202 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.nativeTabs": true,
+  "window.openFoldersInNewWindow": "on",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.empty.hint": "hidden",
+  "chat.disableAIFeatures": true,
+  "chat.agentHost.enabled": false,
+  "chat.viewSessions.orientation": "stacked",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+  "explorer.confirmDelete": false,
+  "git.suggestSmartCommit": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "editor.wordSegmenterLocales": "ja",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.vscode/**": true,
+    "**/coverage/**": true,
+    "**/__generated__/**": true,
+    "**/tmp/**": true,
+    "**/.cache/**": true,
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.formatOnSave": true,
+  },
+  "markdownlint.config": {
+    "line-length": false, // MD013: 1文の最大文字数をはtextlintと競合するため無効化
+    "no-duplicate-heading": false, // MD024: 見出し文字列の重複を許容
+    "no-trailing-punctuation": false, // MD026: 見出しに.,;:が入ることを許容
+    "no-inline-html": false, // MD033: HTML記述を許容
+    "no-bare-urls": false, // MD034: URLそのままの表記を許容
+  },
+  "markdown-preview-github-styles.colorTheme": "light",
+  "markdown-mermaid.darkModeTheme": "neutral",
+  "markdown-mermaid.lightModeTheme": "neutral",
+  "docker.extension.enableComposeLanguageServer": false,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit",
+    },
+  },
+  "ruff.configuration": "pyproject.toml",
+  "notebook.lineNumbers": "on",
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  "python.terminal.activateEnvironment": false,
+  "chatgpt.localeOverride": "ja-JP",
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "default",
+  "pgsql.serverGroups": [
+    {
+      "name": "Servers",
+      "id": "B9D1CC94-1015-428B-8503-1B3BE8352D07",
+      "isDefault": true
+    }
+  ],
+  "pgsql.connections": [],
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.chatEditModifiedFile": {
+    "sound": "off",
+  },
+  "accessibility.signals.chatRequestSent": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "off",
+  },
+  "accessibility.signals.chatUserActionRequired": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.clear": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.codeActionApplied": {
+    "sound": "off",
+  },
+  "accessibility.signals.codeActionTriggered": {
+    "sound": "off",
+  },
+  "accessibility.signals.onDebugBreak": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off",
+  },
+  "accessibility.signals.diffLineInserted": {
+    "sound": "off",
+  },
+  "accessibility.signals.diffLineModified": {
+    "sound": "off",
+  },
+  "accessibility.signals.editsKept": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.positionHasError": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.lineHasError": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off",
+  },
+  "accessibility.signals.nextEditSuggestion": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.noInlayHints": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.notebookCellCompleted": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.notebookCellFailed": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.progress": {
+    "sound": "off",
+    "announcement": "off",
+  },
+  "accessibility.signals.taskCompleted": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.taskFailed": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.editsUndone": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.voiceRecordingStarted": {
+    "sound": "off",
+  },
+  "accessibility.signals.voiceRecordingStopped": {
+    "sound": "off",
+  },
+  "accessibility.signals.positionHasWarning": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "accessibility.signals.lineHasWarning": {
+    "sound": "off",
+    "announcement": "auto",
+  },
+  "diffEditor.renderSideBySide": false,
+}
