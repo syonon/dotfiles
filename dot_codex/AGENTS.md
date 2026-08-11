@@ -15,3 +15,23 @@
 ## Git
 
 コミットメッセージは日本語、Conventional Commitsに従って作成すること。
+
+## Browser verification
+
+### Playwright CLI
+通常のブラウザ操作・動作確認には Playwright CLI を優先する。
+
+- snapshot を取得して要素を操作する
+- 主要なユーザーフローを確認する
+- Console error がないことを確認する
+- 必要に応じて screenshot で表示を確認する
+
+### Chrome DevTools
+以下のような深い調査が必要な場合のみ Chrome DevTools を使用する。
+
+- Network の詳細調査
+- Console error の原因調査
+- Performance / Core Web Vitals
+- Lighthouse
+- メモリリーク
+- レンダリング性能
