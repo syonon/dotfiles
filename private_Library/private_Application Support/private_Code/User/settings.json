@@ -199,4 +199,5 @@
     "announcement": "auto",
   },
   "diffEditor.renderSideBySide": false,
+  "terminal.integrated.macOptionIsMeta": true
 }
