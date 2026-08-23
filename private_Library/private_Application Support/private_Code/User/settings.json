@@ -2,7 +2,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "window.nativeTabs": true,
   "window.openFoldersInNewWindow": "on",
-  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.colorTheme": "Dark+",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.activityBar.location": "top",
   "workbench.editor.empty.hint": "hidden",
